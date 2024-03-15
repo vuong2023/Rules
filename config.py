@@ -20,7 +20,11 @@ LIST_REJECT_URL = [
     # 乘风 视频过滤规则
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
     # d3Host List by d3ward
-    "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock"
+    "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
+    # AdhostViet
+    "https://github.com/bigdargon/hostsVN/raw/master/extensions/adult/filter-VN.txt",
+    # Ad
+    "https://github.com/bigdargon/hostsVN/raw/master/extensions/adult/filter.txt"
 ]
 
 # AdGuard DNS Filter Whitelist
@@ -29,5 +33,5 @@ LIST_EXCL_URL = [
     "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt"
 ]
 
-URL_DOMESTIC_IP_V4 = "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt"
-URL_DOMESTIC_IP_V6 = "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt"
+URL_DOMESTIC_IP_V4 = "https://raw.githubusercontent.com/vuong2023/vn-v2ray-rules/ip2location/ip2location-vn.txt"
+URL_DOMESTIC_IP_V6 = "https://raw.githubusercontent.com/vuong2023/vn-v2ray-rules/ip2location/ip2location-vn6.txt"
